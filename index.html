@@ -1,8 +1,67 @@
-<html>
-    <head>
-        <title>Minha página</title>
-    </head>
-    <body>
-        Meu documento <strong>DOM</strong>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Minha agenda contatos</title>
+</head>
+
+<body>
+    <img src="assets/img/contacts-icon.png" alt="icone da agenda" width="100px" height="100px">
+    <h1>Minha agenda de contatos</h1>
+
+    <hr />
+
+    <h3>Adicionar novo contato</h3>
+    <form method="post" action="">
+        <label>Nome:</label>
+        <input name="nome" type="text">
+        <label>Telefone:</label>
+        <input name="telefone" type="number">
+        <label>E-mail:</label>
+        <input name="email" type="email">
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <hr />
+
+    <h3>Meus contatos</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Interesses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joãozinho</td>
+                <td>912345678</td>
+                <td><a href="mailto:joaozinho@gmail.com" target="_blank">joaozinho@gmail.com</a></td>
+                <td>
+                    <ul>
+                        <li>Futebol</li>
+                        <li>Video-game</li>
+                        <li>Praia</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>987654321</td>
+                <td><a href="mailto:maria@gmail.com" target="_blank">maria@gmail.com</a></td>
+                <td>
+                    <ul>
+                        <li>Barbie</li>
+                        <li>Amizades</li>
+                        <li>Baladinhas</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
 </html>
