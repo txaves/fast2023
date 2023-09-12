@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
