@@ -11,3 +11,25 @@ main {
 header {
   text-align: center;
 }
+
+.new-contact-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input, .input-group textarea {
+  border-radius: 10px;
+}
+
+.create-button {
+  background-color: #0D47A1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
